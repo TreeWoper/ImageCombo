@@ -266,15 +266,8 @@ imageStitch/
 
 ---
 
-## Notes and limitations
+## Note
 
 - Tiles are **JPEG**; small differences at seams are normal. Overlap blending helps more than expecting pixel-perfect equality.
-- Respect the service: use `--delay` if you download large grids; do not hammer the API.
 - Blank or white tiles usually mean X/Y are outside the photo — try `--anchor-x 0 --anchor-y 0` or a smaller range.
 - This project is for educational / personal use with the Flash Photography magnifier; you are responsible for complying with their terms of use.
-
----
-
-## License
-
-Add your license here before publishing (e.g. MIT). If unsure, keep the repository private until you choose one.
