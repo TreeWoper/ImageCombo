@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Outputs (keep examples out of git)
+*.jpg
+*.jpeg
+*.png
+!docs/**/*.png
+
+# Downloaded tiles and scratch folders
+tiles/
+output/
+mosaics/
+
+# Gradio cache
+.gradio/
+flagged/
+
+# OS
+.DS_Store
+Thumbs.db
